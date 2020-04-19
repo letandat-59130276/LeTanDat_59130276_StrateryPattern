@@ -10,5 +10,8 @@ package BaiTap1;
  * @author Con Meo Cutee
  */
 public class Cong {
-    
+    @Override
+    public float tinh(float a, float b) {
+        return a+b;
+    }
 }
