@@ -10,5 +10,11 @@ package BaiTap2;
  * @author Con Meo Cutee
  */
 public class ThanhToanCOD {
-    
+    @Override
+    public double thanhToan(int tienHang) {
+        if(tienHang > 2000000)
+            return 0.98*tienHang;
+        else
+            return tienHang;
+    }
 }

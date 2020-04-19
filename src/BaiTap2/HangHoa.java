@@ -10,5 +10,7 @@ package BaiTap2;
  * @author Con Meo Cutee
  */
 public class HangHoa {
-    
+    private String tenHH;
+    private int gia;
+    private String moTa;
 }

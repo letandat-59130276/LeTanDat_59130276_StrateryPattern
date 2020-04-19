@@ -5,10 +5,14 @@
  */
 package BaiTap2;
 
+import java.util.ArrayList;
+
 /**
  *
  * @author Con Meo Cutee
  */
 public class GioHang {
+    private IThanhToan hinhthucThanhToan;
+    private ArrayList<HangHoa> hh;
     
 }
