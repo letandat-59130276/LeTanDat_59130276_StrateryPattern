@@ -10,12 +10,16 @@ package BaiTap1;
  * @author Con Meo Cutee
  */
 public class Main {
-
-    /**
-     * @param args the command line arguments
-     */
-    public static void main(String[] args) {
-        // TODO code application logic here
-    }
+    public static void main(String[] args){
+        Tinh cong = new Cong();
+        Tihh tru = new Tru();
+        
+        Context context = new Context();
+        
+        context.setTinhToan(cong);
+        System.out.println(context.tinh(75, 12));
     
+        context.setTinhToan(tru);
+        System.out.println(context.tinh(54, 78));
+    }
 }

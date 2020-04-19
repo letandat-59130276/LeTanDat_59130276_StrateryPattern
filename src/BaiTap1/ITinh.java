@@ -10,5 +10,5 @@ package BaiTap1;
  * @author Con Meo Cutee
  */
 public interface ITinh {
-    
+    public float tinh(float a,float b);
 }
