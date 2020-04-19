@@ -16,10 +16,10 @@ public class Main {
         
         Context context = new Context();
         
-        context.setTinhToan(cong);
-        System.out.println(context.Tinh(75, 12));
+        context.setTinhtoan(cong);
+        System.out.println(context.tinh(75, 12));
     
-        context.setTinhToan(tru);
+        context.setTinhtoan(tru);
         System.out.println(context.tinh(54, 78));
     }
 }
