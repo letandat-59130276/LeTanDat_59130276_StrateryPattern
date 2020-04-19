@@ -9,6 +9,6 @@ package BaiTap1;
  *
  * @author Con Meo Cutee
  */
-interface Tinh {
+public interface ITinh {
     public float tinh(float a,float b);
 }

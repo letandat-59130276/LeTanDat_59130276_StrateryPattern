@@ -11,15 +11,15 @@ package BaiTap1;
  */
 public class Main {
     public static void main(String[] args){
-        Tinh cong = new Cong();
-        Tinh tru = new Tru();
+        ITinh cong = new Cong();
+        ITinh tru = new Tru();
         
         Context context = new Context();
         
         context.setTinhtoan(cong);
-        System.out.println(context.tinh(75, 12));
+        System.out.println("75+12= " + context.tinh(75, 12));
     
         context.setTinhtoan(tru);
-        System.out.println(context.tinh(54, 78));
+        System.out.println("54-78= " + context.tinh(54, 78));
     }
 }
