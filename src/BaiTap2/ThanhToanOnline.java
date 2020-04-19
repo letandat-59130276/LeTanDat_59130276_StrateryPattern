@@ -9,7 +9,7 @@ package BaiTap2;
  *
  * @author Con Meo Cutee
  */
-public class ThanhToanOnline {
+public class ThanhToanOnline implements IThanhToan{
      @Override
     public double thanhToan(int tienHang) {
         if(tienHang < 1000000)
