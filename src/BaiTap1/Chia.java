@@ -9,7 +9,7 @@ package BaiTap1;
  *
  * @author Con Meo Cutee
  */
-public class Chia {
+public class Chia implements Tinh {
    @Override
     public float tinh(float a, float b) {
         if(b==0) 

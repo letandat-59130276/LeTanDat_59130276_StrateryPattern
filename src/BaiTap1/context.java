@@ -9,14 +9,14 @@ package BaiTap1;
  *
  * @author Con Meo Cutee
  */
-public class context {
-    private Tinh tinhToan;
+public class Context {
+    private Tinh tinhtoan;
 
-    public void setTinhToan(Tinh tinhToan) {
-        this.tinhToan = tinhToan;
+    public void setTinhtoan(Tinh tinhtoan) {
+        this.tinhtoan = tinhtoan;
     }
 
     public float tinh(float a, float b){
-        return tinhToan.tinh(a, b);
+        return tinhtoan.tinh(a, b);
     }
 }

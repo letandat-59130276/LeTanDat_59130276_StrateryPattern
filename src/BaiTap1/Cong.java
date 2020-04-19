@@ -9,9 +9,10 @@ package BaiTap1;
  *
  * @author Con Meo Cutee
  */
-public class Cong {
+public class Cong implements Tinh {
     @Override
     public float tinh(float a, float b) {
         return a+b;
     }
+    
 }

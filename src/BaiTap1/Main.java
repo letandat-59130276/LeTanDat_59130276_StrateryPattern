@@ -12,12 +12,12 @@ package BaiTap1;
 public class Main {
     public static void main(String[] args){
         Tinh cong = new Cong();
-        Tihh tru = new Tru();
+        Tinh tru = new Tru();
         
         Context context = new Context();
         
         context.setTinhToan(cong);
-        System.out.println(context.tinh(75, 12));
+        System.out.println(context.Tinh(75, 12));
     
         context.setTinhToan(tru);
         System.out.println(context.tinh(54, 78));

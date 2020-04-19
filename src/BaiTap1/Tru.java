@@ -9,7 +9,7 @@ package BaiTap1;
  *
  * @author Con Meo Cutee
  */
-public class Tru {
+public class Tru implements Tinh{
     @Override
     public float tinh(float a, float b) {
         return a-b;
